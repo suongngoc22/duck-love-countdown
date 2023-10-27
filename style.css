@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;500;600&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,7 +9,7 @@ body {
     background-image: url("./duck-sea.jpg");
     min-height: 100vh;
     background-size: cover;
-    background-position: center center;
+    background-position: 85%;
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
@@ -41,6 +42,7 @@ h1 {
     font-weight: normal;
     margin-top: -10rem;
     text-align: center;
+    font-family: 'Playpen Sans', cursive;
 }
 
 .big-text {
@@ -55,5 +57,6 @@ h1 {
 }
 
 .countdown-el span {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Playpen Sans', cursive;
 }
