@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./duck-sea.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.countdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-inline: 20px;
+}
+
+.countdown-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(105px, 110px));
+    grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
+    width: 100%;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin-top: -10rem;
+    text-align: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1.25;
+    margin-block: 0;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1rem;
+}
